@@ -24,7 +24,9 @@ group :assets do
 
   
 end
-
+group :production do
+  gem 'pg', '0.12.2'
+end
 gem 'jquery-rails', '2.0.2'
 
 # To use ActiveModel has_secure_password
